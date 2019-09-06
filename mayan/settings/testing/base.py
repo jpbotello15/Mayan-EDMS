@@ -7,7 +7,6 @@ CELERY_EAGER_PROPAGATES_EXCEPTIONS = True
 BROKER_BACKEND = 'memory'
 
 COMMON_PRODUCTION_ERROR_LOG_PATH = '/tmp/mayan-errors.log'
-
 DOCUMENT_PARSING_AUTO_PARSING = False
 
 FILE_METADATA_AUTO_PROCESS = False
@@ -37,7 +36,6 @@ MIDDLEWARE = [
         'common.middleware.ajax_redirect.AjaxRedirect',
     ]
 ]
-
 OCR_AUTO_OCR = False
 
 # User a simpler password hasher
